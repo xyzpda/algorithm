@@ -34,3 +34,10 @@ S, T = map(str, input().split())
 ```python
 A = list(map(int, input().split()))
 ```
+
+# 整数型変数を練習できる問題
+- ABC137 A
+- ABC127 A
+- ABC118 A
+- ABC088 A
+- ABC087 A
