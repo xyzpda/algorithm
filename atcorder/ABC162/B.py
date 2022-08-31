@@ -1,9 +1,13 @@
 N = int(input())
 
-i = 0
 ans = 0
-while ans < N:
-    i+=1
-    ans+=i
+for i in range(1, N + 1):
+    if i % 3 == 0 and i % 5 == 0:
+        continue
+    if i % 3 == 0:
+        continue
+    if i % 5 == 0:
+        continue
+    ans += i
 
-print(i)
+print(ans)
